@@ -2084,6 +2084,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This implementation used a differentil output opamp as the \noutput stage, to keep the apmlifier chain differential ended"
+		(exclude_from_sim no)
+		(at 188.722 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a177bd5-1523-41cb-b8df-0bff18710a93")
+	)
+	(text "Instrumentation amplifier\n"
+		(exclude_from_sim no)
+		(at 187.452 22.098 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left)
+		)
+		(uuid "8fe2da1c-91a4-48a9-9ce0-bf41ee6dee12")
+	)
+	(text_box "Note:\nThe diodes D1 and D2 are only to be used if the output swing of the input\nsignal is less than +/- 0.6V ish, including common mode.\n\nThe common mode amplification of the first step is 1, wheras the amplification of the signal is (R2/R1)/2. \nEffectively giving a CMRR of the same as the signal amplification. The rest of the CMRR for the amplifier is achived by the second stage (U3). And it heavely depends on the difference of the ratio between R4/R5 and R7/R6.\n\n"
+		(exclude_from_sim no)
+		(at 22.86 17.78 0)
+		(size 55.88 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "81d0c167-9068-4f1f-bf37-8eb15d842486")
+	)
 	(junction
 		(at 54.61 96.52)
 		(diameter 0)
