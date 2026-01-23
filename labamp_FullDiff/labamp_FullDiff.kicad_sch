@@ -1816,16 +1816,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 182.88) (xy 106.68 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f74fd92-4f0e-494a-a317-42b551ad0d6a")
-	)
-	(wire
-		(pts
 			(xy 35.56 173.99) (xy 35.56 176.53)
 		)
 		(stroke
@@ -2023,16 +2013,6 @@
 			(type default)
 		)
 		(uuid "37640d55-f9fe-4c67-b4eb-c34ea661ab54")
-	)
-	(wire
-		(pts
-			(xy 121.92 172.72) (xy 121.92 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c5e6fa-db73-4e9e-a237-8b01fc77aa69")
 	)
 	(wire
 		(pts
@@ -2296,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 182.88) (xy 91.44 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b68d42-cdbb-49be-9c95-3993708c703e")
-	)
-	(wire
-		(pts
 			(xy 154.94 66.04) (xy 170.18 66.04)
 		)
 		(stroke
@@ -2486,16 +2456,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 172.72) (xy 106.68 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b187d4d-77b5-4b93-9e6d-0a7b69c7390f")
-	)
-	(wire
-		(pts
 			(xy 142.24 83.82) (xy 139.7 83.82)
 		)
 		(stroke
@@ -2543,26 +2503,6 @@
 			(type default)
 		)
 		(uuid "b02896d5-a318-47f5-ab66-ed4884d8d3b3")
-	)
-	(wire
-		(pts
-			(xy 121.92 182.88) (xy 121.92 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b230ac4e-af48-4d84-b44d-d80a3fdc55de")
-	)
-	(wire
-		(pts
-			(xy 91.44 172.72) (xy 91.44 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3835c6c-50b3-4877-8470-988540aada42")
 	)
 	(wire
 		(pts
@@ -2726,16 +2666,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 182.88) (xy 137.16 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b26781-a216-4dad-9c5a-fa01b75607be")
-	)
-	(wire
-		(pts
 			(xy 133.35 86.36) (xy 133.35 83.82)
 		)
 		(stroke
@@ -2863,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "fbbb96a5-9eb2-4cc8-8d4e-21b9a60cf69b")
-	)
-	(wire
-		(pts
-			(xy 137.16 172.72) (xy 137.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3d5dd9-79c1-4b4b-aa9c-a920ef72c906")
 	)
 	(label "out+"
 		(at 236.855 91.44 180)
@@ -3073,72 +2993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 121.92 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c57a240-67cb-4a3d-96b3-c7e947918df1")
-		(property "Reference" "#PWR036"
-			(at 121.92 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15bca6f2-241b-422c-bda2-2a3cc4ce7fd9")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 269.875 88.9 0)
 		(mirror y)
@@ -3200,72 +3054,6 @@
 			(project "labamp_template"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 91.44 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "192f74bf-4907-40cb-9edb-350fd8dde674")
-		(property "Reference" "#PWR039"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 91.44 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b1c4ca2-9d93-48b8-8b73-47f66e6d7a44")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3678,72 +3466,6 @@
 	)
 	(symbol
 		(lib_id "power:-3V3")
-		(at 137.16 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4779f9d6-7996-479a-8681-72983a595d6b")
-		(property "Reference" "#PWR037"
-			(at 137.16 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-3V3"
-			(at 137.16 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-3V3\""
-			(at 137.16 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4910e76-dda3-48e3-876b-e77542f3ae0f")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-3V3")
 		(at 25.4 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3803,76 +3525,6 @@
 			(project "labamp_template"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 106.68 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c269110-eb29-4c64-9fcb-2ffb1a5bc885")
-		(property "Reference" "C12"
-			(at 110.49 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 110.49 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 107.6452 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 106.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a673ac55-e158-489c-98a9-2506b19a5899")
-		)
-		(pin "2"
-			(uuid "504f466d-6146-4d28-aa1a-40c1f4d2446d")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4546,72 +4198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a43b583-cb8f-4a47-a0a0-bde0ee3e06e2")
-		(property "Reference" "#PWR038"
-			(at 137.16 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47747043-daff-46c5-97a5-1b31a04a7735")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 109.22 124.46 180)
 		(unit 1)
@@ -4944,76 +4530,6 @@
 			(project ""
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 121.92 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88cd04e1-81c9-4158-b90a-d36a9c472d52")
-		(property "Reference" "C9"
-			(at 125.73 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 125.73 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 122.8852 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d767aec-6b0a-4978-8926-2bab21121251")
-		)
-		(pin "2"
-			(uuid "bba2460b-5091-4245-b3b0-d8786ef62871")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5555,142 +5071,6 @@
 			(project "labamp_template"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 91.44 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6392b46-b864-4426-8b60-36d9f0292b20")
-		(property "Reference" "C11"
-			(at 95.25 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 95.25 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 92.4052 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "856567a1-60c2-40a1-9fcd-c9342356ad22")
-		)
-		(pin "2"
-			(uuid "145c9978-cc8a-4219-bb58-b79817ccb1e1")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a79bc5f2-5301-4f4d-bd98-dfc8e9d46bd5")
-		(property "Reference" "#PWR035"
-			(at 121.92 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 121.92 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcc72a77-445f-4dd1-a70c-f2de88b944fb")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6392,138 +5772,6 @@
 			(project "labamp_template"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-3V3")
-		(at 106.68 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8216abf-80ed-4f48-95d5-82db8737e4dc")
-		(property "Reference" "#PWR041"
-			(at 106.68 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-3V3"
-			(at 106.68 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-3V3\""
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a53d2928-6ee3-4483-ab33-ecc251834063")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8f1aa3b-e761-429b-baff-acb20305de96")
-		(property "Reference" "#PWR042"
-			(at 106.68 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58400047-6be3-4c66-8898-d10b355aa386")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7296,142 +6544,6 @@
 			(project "labamp_ia"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4441161-e607-4107-911e-26783d592538")
-		(property "Reference" "#PWR040"
-			(at 91.44 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a7ef4b-2955-45f4-9635-b82711aae692")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f51ba670-da79-43ed-9ba7-6fbd8e7c1797")
-		(property "Reference" "C10"
-			(at 140.97 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 140.97 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 138.1252 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49101a8b-0205-4fb8-a25e-5cf0c6919757")
-		)
-		(pin "2"
-			(uuid "d2d333b9-5fef-49c9-af53-94f81b83526d")
-		)
-		(instances
-			(project "labamp_ia"
-				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
-					(reference "C10")
 					(unit 1)
 				)
 			)
