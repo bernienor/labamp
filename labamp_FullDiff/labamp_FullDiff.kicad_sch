@@ -1576,6 +1576,26 @@
 		)
 		(uuid "b76c3b92-d60c-4579-afc0-ddfc9ce4f170")
 	)
+	(text_box "Note: By replacing all negative voltage decoupling capacitors with 0R resistors the circuit can be supplied from a single voltage source. Use R4 and R12 to set the output common mode voltage. For a dual supply system, R4 is typically 0R\n\n"
+		(exclude_from_sim no)
+		(at 30.48 35.56 0)
+		(size 35.56 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8b42ce94-85fb-4cac-a29f-5491593c25a8")
+	)
 	(junction
 		(at 54.61 96.52)
 		(diameter 0)
@@ -1635,6 +1655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "751d3513-4a75-4edf-9d92-b6a3aab4b9b8")
+	)
+	(junction
+		(at 121.92 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ce763b8-0213-4fab-9545-b0aab1ae3cae")
 	)
 	(junction
 		(at 260.985 96.52)
@@ -1846,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 78.74) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1592ef95-50dc-49ea-9a19-195da7e33fc0")
+	)
+	(wire
+		(pts
 			(xy 34.29 124.46) (xy 34.29 127)
 		)
 		(stroke
@@ -1913,6 +1949,16 @@
 			(type default)
 		)
 		(uuid "1fe583fd-2538-491f-9536-4a0167a9bc12")
+	)
+	(wire
+		(pts
+			(xy 149.86 78.74) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eaf78d-cafe-4335-9444-ba5e91440b35")
 	)
 	(wire
 		(pts
@@ -2136,16 +2182,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "545881ea-173e-4a36-9d31-40adb7029035")
-	)
-	(wire
-		(pts
 			(xy 38.1 91.44) (xy 25.4 91.44)
 		)
 		(stroke
@@ -2346,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 91.44) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f89badb-1120-451a-bb87-0461d30f24a5")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 127 38.1)
 		)
 		(stroke
@@ -2353,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "7fa95860-6002-4674-9f19-7ed7109633c7")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85609b4f-66f5-4be3-894e-a2afe92d72cf")
 	)
 	(wire
 		(pts
@@ -2456,6 +2512,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 101.6) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d72a718-3bbb-4e76-95e9-d8d1994e7105")
+	)
+	(wire
+		(pts
+			(xy 121.92 88.9) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff38eb5-b48e-4a19-86d2-decb6a6f1067")
+	)
+	(wire
+		(pts
 			(xy 142.24 83.82) (xy 139.7 83.82)
 		)
 		(stroke
@@ -2473,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "a0f825e1-67be-4d11-bfe5-c954c90ebbb2")
-	)
-	(wire
-		(pts
-			(xy 142.24 91.44) (xy 128.27 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18d4e98-91c8-4d10-8a23-cead1d4dbf2b")
 	)
 	(wire
 		(pts
@@ -2523,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "ba732ef1-ac65-40cd-abd3-af218b5af0a3")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc700ab6-eea4-4640-a9ef-05a245ec4f0a")
 	)
 	(wire
 		(pts
@@ -2666,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 133.35 83.82)
+			(xy 133.35 86.36) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +3877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 93.98 0)
+		(at 121.92 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3810,7 +3886,7 @@
 		(fields_autoplaced yes)
 		(uuid "51c828bc-9ce2-4c76-88de-6d0cd8c98afd")
 		(property "Reference" "#PWR023"
-			(at 128.27 100.33 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 99.06 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 93.98 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 93.98 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 93.98 0)
+			(at 121.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,6 +4344,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 121.92 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6faa3db6-7d01-4308-b497-2cbb2fd567e1")
+		(property "Reference" "#PWR029"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbaac45a-a32c-406d-bd76-5a15fef42a4f")
+		)
+		(instances
+			(project "labamp_FullDiff"
+				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-3V3")
 		(at 149.86 99.06 180)
 		(unit 1)
@@ -4328,6 +4470,76 @@
 			(project "labamp_ia"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72bff65b-ee70-4959-88f2-301b7afafc02")
+		(property "Reference" "R12"
+			(at 124.46 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 123.698 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "058a69b5-62c5-4ac5-9fc3-8586bdcbce28")
+		)
+		(pin "1"
+			(uuid "0a8fdc03-feb7-441d-bc18-33ffd57fc8e8")
+		)
+		(instances
+			(project "labamp_FullDiff"
+				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5071,6 +5283,77 @@
 			(project "labamp_template"
 				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a355fb1c-e43e-4338-a94b-7f9258890424")
+		(property "Reference" "R3"
+			(at 124.46 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 123.698 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f59842a-26bb-48a3-80b7-83bf51abb0b3")
+		)
+		(pin "1"
+			(uuid "faacdbe8-7fc1-4348-92fe-93426390084c")
+		)
+		(instances
+			(project "labamp_FullDiff"
+				(path "/a0c99055-08c7-4e05-9803-96c7ce32a2b2"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6901,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 83.82 0)
+		(at 133.35 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6627,7 +6910,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8be662c-99dd-4ed2-9fba-56049e30c6d2")
 		(property "Reference" "#PWR027"
-			(at 133.35 87.63 0)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6919,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.35 78.74 0)
+			(at 133.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +6927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 83.82 0)
+			(at 133.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 83.82 0)
+			(at 133.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +6945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 83.82 0)
+			(at 133.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
