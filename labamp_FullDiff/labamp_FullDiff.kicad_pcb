@@ -6000,6 +6000,19 @@
 		(layer "Edge.Cuts")
 		(uuid "b93cf8f1-035b-40c0-9e34-62d3694a5b11")
 	)
+	(gr_text "Full Diff\nVer 1.0\nBHH"
+		(at 133.1 84.5 0)
+		(layer "F.SilkS")
+		(uuid "51b5481b-00e7-44cd-9f73-b4b80235e0a3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(via
 		(at 149 102)
 		(size 0.6)
